@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ff-shop.iml" filepath="$PROJECT_DIR$/ff-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api/shop-api.iml" filepath="$PROJECT_DIR$/shop-api/shop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/shop-common/shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-service/shop-eureka-service/shop-eureka-service.iml" filepath="$PROJECT_DIR$/shop-service/shop-eureka-service/shop-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web/shop-index/shop-index.iml" filepath="$PROJECT_DIR$/shop-web/shop-index/shop-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api/shop-mail-service/shop-mail-service.iml" filepath="$PROJECT_DIR$/shop-api/shop-mail-service/shop-mail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api/shop-rabbitmq/shop-rabbitmq.iml" filepath="$PROJECT_DIR$/shop-api/shop-rabbitmq/shop-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-redis-service/shop-redis-service.iml" filepath="$PROJECT_DIR$/shop-redis-service/shop-redis-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web/shop-register/shop-register.iml" filepath="$PROJECT_DIR$/shop-web/shop-register/shop-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-service/shop-service.iml" filepath="$PROJECT_DIR$/shop-service/shop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web/shop-user/shop-user.iml" filepath="$PROJECT_DIR$/shop-web/shop-user/shop-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-service/shop-user-service/shop-user-service.iml" filepath="$PROJECT_DIR$/shop-service/shop-user-service/shop-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api/shop-user-service-api/shop-user-service-api.iml" filepath="$PROJECT_DIR$/shop-api/shop-user-service-api/shop-user-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web/shop-web.iml" filepath="$PROJECT_DIR$/shop-web/shop-web.iml" />
+    </modules>
+  </component>
+</project>

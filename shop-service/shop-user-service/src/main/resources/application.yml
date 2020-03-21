@@ -1,0 +1,47 @@
+#\u670D\u52A1\u7684\u540D\u79F0
+spring:
+  application:
+    name: shop-user-service
+  datasource:
+    url: jdbc:mysql:///qf-v6
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    username: root
+
+  redis:
+    host: 192.168.6.128
+    port: 6379
+    password: redis
+    lettuce:
+      shutdown-timeout: 1000
+
+  rabbitmq:
+    virtual-host: maomao
+    port: 5672
+    host: 192.168.6.128
+    username: rabbit
+    password: 123456
+
+#\u6D88\u8D39\u8005\u670D\u52A1\u542F\u52A8\u7684\u7AEF\u53E3  \u670D\u52A1\u7684\u7AEF\u53E3\u90FD\u4ECE8081\u5F00\u59CB
+server:
+  port: 8082
+
+#eureka\u670D\u52A1\u5668\u7684\u914D\u7F6E\u6587\u4EF6
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url: #\u5411eureka\u6CE8\u518C\u672C\u670D\u52A1
+      defaultZone: http://${eureka.instance.hostname}:8081/eureka/ #\u5199eureka\u7684\u5730\u5740
+
+
+mybatis:
+  type-aliases-package: com.song.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    #\u5728\u63A7\u5236\u53F0\u8F93\u51FAsql\u8BED\u53E5
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+ # mapper-locations: classpath:mapper/*.xml
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-index" />
+        <module name="shop-user-service-api" />
+        <module name="shop-common" />
+        <module name="shop-web" />
+        <module name="shop-redis-service" />
+        <module name="shop-register" />
+        <module name="shop-eureka-service" />
+        <module name="shop-user" />
+        <module name="shop-service" />
+        <module name="shop-user-service" />
+        <module name="shop-mail-service" />
+        <module name="shop-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ff-shop" target="1.8" />
+      <module name="shop-api" target="1.8" />
+      <module name="shop-common" target="1.8" />
+      <module name="shop-eureka-service" target="1.8" />
+      <module name="shop-index" target="1.8" />
+      <module name="shop-mail-service" target="1.8" />
+      <module name="shop-rabbitmq" target="1.8" />
+      <module name="shop-rabbitmq-service" target="1.8" />
+      <module name="shop-redis-service" target="1.8" />
+      <module name="shop-register" target="1.8" />
+      <module name="shop-service" target="1.8" />
+      <module name="shop-user" target="1.8" />
+      <module name="shop-user-service" target="1.8" />
+      <module name="shop-user-service-api" target="1.8" />
+      <module name="shop-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-common" options="" />
+      <module name="shop-eureka-service" options="-parameters" />
+      <module name="shop-index" options="-parameters" />
+      <module name="shop-mail-service" options="-parameters" />
+      <module name="shop-rabbitmq" options="" />
+      <module name="shop-rabbitmq-service" options="-parameters" />
+      <module name="shop-redis-service" options="-parameters" />
+      <module name="shop-register" options="-parameters" />
+      <module name="shop-service" options="" />
+      <module name="shop-user" options="-parameters" />
+      <module name="shop-user-service" options="-parameters" />
+      <module name="shop-user-service-api" options="" />
+      <module name="shop-web" options="" />
+    </option>
+  </component>
+</project>

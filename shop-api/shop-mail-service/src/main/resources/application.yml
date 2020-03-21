@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: shop-mail-service
+
+  mail:
+    host: smtp.qq.com
+    username: 2250680284@qq.com
+    password: qrgirnrwygasdjei
+    default-encoding: utf-8
+#\u6D88\u8D39\u8005\u670D\u52A1\u542F\u52A8\u7684\u7AEF\u53E3  \u670D\u52A1\u7684\u7AEF\u53E3\u90FD\u4ECE8081\u5F00\u59CB
+server:
+  port: 8084
+
+#eureka\u670D\u52A1\u5668\u7684\u914D\u7F6E\u6587\u4EF6
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url: #\u5411eureka\u6CE8\u518C\u672C\u670D\u52A1
+      defaultZone: http://${eureka.instance.hostname}:8081/eureka/
+
+#\u6FC0\u6D3B\u90AE\u4EF6\u670D\u52A1\u7684\u8DEF\u5F84\u524D\u7F00
+activeUrl:  http://${eureka.instance.hostname}:8082/active/account/
