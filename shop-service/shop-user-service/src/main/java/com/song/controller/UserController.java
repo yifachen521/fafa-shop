@@ -32,7 +32,6 @@ public class UserController {
     public String login(String phone, String password, HttpServletResponse response) {
         TUserDTO userById = userService.findUserById(phone, password);
         if (userById != null) {
-            System.out.println("7777777");
             //组织cookie的键  返回给客户端保存
             String cookie_key = String.format("user_info:%s", userById.getPhone());
             Cookie cookie = new Cookie("cookie_user_login_key", cookie_key);
