@@ -5,7 +5,6 @@ import com.song.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -39,7 +38,7 @@ public class UserController {
             cookie.setMaxAge(30 * 24 * 60 * 60);
             cookie.setHttpOnly(true);
             response.addCookie(cookie);
-            System.out.println("11111111111");
+
             //return到具体的页面  return的是一个页面 如；登录成功的页面
             return "index";
         } else {
