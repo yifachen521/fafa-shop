@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0618781d-dc00-45aa-9786-12970c489ccf" name="Default Changelist" comment="" />
+    <list default="true" id="0618781d-dc00-45aa-9786-12970c489ccf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/song/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/song/controller/UserController.java" afterDir="false" />
+    </list>
     <list id="fa249a5d-bb2d-44ff-8499-c2e7911c7587" name="Revert &quot;删去1111111&quot;" comment="Revert &quot;删去1111111&quot;&#10;&#10;This reverts commit 468ef1d7" />
     <list id="0324c62b-eeaa-498d-9395-c0e4e958b276" name="ririririri" comment="" />
-    <list id="565a7b65-69e1-4196-a777-0043ec18c2c7" name="添加22222" comment="ririririri" />
+    <list id="565a7b65-69e1-4196-a777-0043ec18c2c7" name="添加22222" comment="回退了版本" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shop-common/target/" />
@@ -66,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/song/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="194">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -636,7 +639,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584797740352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现登录和邮箱注册  最初的版本">
+      <created>1584965337442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584965337442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="77777">
+      <created>1584966142645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584966142645</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;77777&quot;&#10;&#10;This reverts commit a195abd6">
+      <created>1584966156603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584966156603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -672,10 +696,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89255000" />
+    <option name="totallyTimeSpent" value="90340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1290" height="684" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -685,7 +710,7 @@
       <window_info id="Designer" order="5" />
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25811687" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.44507575" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5008117" side_tool="true" weight="0.9431818" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.42992425" />
@@ -695,7 +720,7 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.11931818" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.54545456" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.28598484" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4991883" weight="0.1590909" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -729,6 +754,14 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -751,7 +784,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现登录和邮箱注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现登录和邮箱注册" />
+    <MESSAGE value="实现登录和邮箱注册  最初的版本" />
+    <MESSAGE value="77777" />
+    <MESSAGE value="Revert &quot;77777&quot;&#10;&#10;This reverts commit a195abd6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;77777&quot;&#10;&#10;This reverts commit a195abd6" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1120,8 +1156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/song/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="194">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
