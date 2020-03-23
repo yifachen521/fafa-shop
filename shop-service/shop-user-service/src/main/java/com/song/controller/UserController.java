@@ -39,6 +39,7 @@ public class UserController {
             cookie.setMaxAge(30 * 24 * 60 * 60);
             cookie.setHttpOnly(true);
             response.addCookie(cookie);
+            System.out.println("11111111111");
             //return到具体的页面  return的是一个页面 如；登录成功的页面
             return "index";
         } else {
