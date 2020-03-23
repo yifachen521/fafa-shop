@@ -13,13 +13,6 @@
         <module>shop-common</module>
 
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.10</version>
-        </dependency>
-    </dependencies>
 
 
 </project>
