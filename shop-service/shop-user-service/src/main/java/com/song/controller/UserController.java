@@ -31,6 +31,7 @@ public class UserController {
     @RequestMapping("/checkLogin")
     public String login(String phone, String password, HttpServletResponse response) {
         TUserDTO userById = userService.findUserById(phone, password);
+        System.out.println("22222222222");
         if (userById != null) {
             //组织cookie的键  返回给客户端保存
             String cookie_key = String.format("user_info:%s", userById.getPhone());
